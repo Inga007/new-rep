@@ -1,0 +1,204 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar-brand img{
+	width: 60px;
+}
+.navbar-nav .nav-item .nav-link{
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+
+}
+.navbar-nav .nav-item:hover .nav-link{
+	color: #DA2128;
+	transition: 1s;
+}
+.navbar-light .navbar-nav .show>.nav-link {
+	color: #fff
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	background: #DA2128;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/menu.png)
+}
+.navbar-toggler-icon{
+	height: 1.2em;
+}
+.textcontent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.textcontent h1{
+	margin: 3rem auto;
+	color:  #DA2128;
+	font-size: 25px;
+	text-align: center;
+
+}
+.dash{
+	
+	display: flex;
+	justify-content: center;	
+	flex-wrap: wrap;
+	margin: 50px auto;
+}
+.dash a{
+	text-decoration: none;
+}
+.circls{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #DA2128;
+	margin: 15px ;
+	
+}
+.circls p{
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 0;
+
+}
+.circls span{
+	display: block;
+}
+header{
+	background: #000;
+}
+.header-menu{
+	
+	display: flex;
+	
+}
+.logo_text img{
+	width: 60px;
+}
+.exit{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 15px;
+}
+.exit a{
+	text-decoration: none;
+}
+.exit img{
+	width: 20px;
+}
+
+.table-responsive{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+thead tr{
+	white-space: nowrap;
+
+}
+tr{
+	text-align: center;
+}
+.dontapr tbody{
+	color: #DA2128
+}
+.approve tbody{
+	color: #76a73e;
+}
+.pagination{
+	justify-content: center;
+	margin: 3rem auto;
+}
+.img img{
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+}
+
+.table td{
+vertical-align: middle;
+}
+.img_two img{
+	width: 30px;
+	padding-right: 10px
+}
+.page-link{
+	color: #DA2128;
+	padding: 10px 15px;
+	font-size: 18px;
+	border: 1px solid #DA2128;
+}
+.page-link:hover{
+	border-color: #DA2128;
+	background-color: #DA2128;
+	color: #fff
+}
+
+.regblock{
+	margin: 1% ;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.regblock p{
+	text-align: right;
+	width: 230px;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #DA2128
+}
+.regblock input{
+	max-width: 550px;
+	min-width: 270px;
+	width: 100%;
+	padding: 2px 5px;
+	margin-right: 10px
+
+}
+.regblock img{
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	display: block;
+
+}
+input[type=radio]{
+	width: 12px;
+    max-width: 15px;
+    min-width: 10px;
+}
+label{
+	max-width: 120px;
+	width: 100%;
+}
+input[type=file]{
+	max-width: 150px
+}
+
+.btn-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media(max-width: 768px){
+	.regblock{
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0 10px;
+	
+}
+.regblock p{
+	text-align: left;
+	margin-bottom: 0;
+}
+}
